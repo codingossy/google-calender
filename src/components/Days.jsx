@@ -64,7 +64,7 @@ const Days = ({day, rowIndex}) => {
           }}
         >
               {dayOfEvents.map((evt, index) => (
-                <div onClick={() => setDisplaySelectedEvents(evt)} key={index} className={`bg-green-600 text-white p-2 px-2 capitalize mr-3 text-xs rounded mb-2 truncate`}>
+                <div onClick={() => setDisplaySelectedEvents(evt)} key={index} className={`bg-green-600 text-white p-1 px-1 capitalize mr-3 text-[8px] lg:text-xs rounded mb-2 truncate`}>
                   {evt.title}
                 </div>
               ))}

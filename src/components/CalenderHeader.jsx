@@ -16,7 +16,7 @@ import coker from '../assets/coker.jpg'
 
 const CalenderHeader = () => {
 
-    const {monthIndex, setMonthIndex} = useContext(GlobalContext)
+    const {monthIndex, setMonthIndex, hideSidebar, setHideSideBar} = useContext(GlobalContext)
 
     // function to handle month changes when clicked
 
@@ -31,7 +31,8 @@ const CalenderHeader = () => {
     function handleReset(){
         setMonthIndex(monthIndex === dayjs().month() ? monthIndex + Math.random() : dayjs().month())
     }
-   
+  
+
 
     return (
     
@@ -41,7 +42,7 @@ const CalenderHeader = () => {
             
        <div className='flex'>
             <div className='flex items-center justify-center'>
-                <HiMenu  size={25} className='border rounded-full px-2 w-7 h-7 lg:h-10 lg:w-10 bg-gray-200 cursor-pointer'/>
+                <HiMenu size={25} className='border rounded-full px-2 w-7 h-7 lg:h-10 lg:w-10 bg-gray-200 cursor-pointer'/>
             </div>
 
         <div className='flex items-center justify-center gap-x-3'>

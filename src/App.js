@@ -38,7 +38,7 @@ function App() {
         <CalenderHeader />
 
 
-          <div className="flex flex-1">
+          <div className="flex flex-col sm:flex-row lg:flex-1">
             
 
             <Sidebar />

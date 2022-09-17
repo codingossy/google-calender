@@ -50,7 +50,7 @@ const Events = () => {
 
   return (
     <div className='h-screen w-full fixed left-0 top-0 flex justify-center items-center'> 
-        <form className='bg-white rounded-xl shadow-2xl w-[60%] lg:w-1/4 '>
+        <form className='bg-white rounded-xl shadow-2xl w-[80%] lg:w-1/4 '>
             <header className='bg-black px-4 py-2 flex justify-between items-center'>
                <div>
                     {displaySelectedEvents && (

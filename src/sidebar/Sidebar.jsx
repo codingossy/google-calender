@@ -11,7 +11,7 @@ import {IoClose} from 'react-icons/io5'
 
 const Sidebar = () => {
   return (
-    <div className='border p-5 w-44 lg:w-64'>
+    <div className='border p-5 w-full sm:w-64'>
   
         <CreateEventBtn />
         <MiniCalender />
