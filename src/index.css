@@ -1,0 +1,34 @@
+@tailwind base;
+
+
+@layer base {
+  body {
+    @apply bg-grey-3 font-primary text-base leading-relaxed;
+  }
+  .section {
+    @apply py-[50px] lg:py-[70px];
+  }
+  .title {
+    @apply text-2xl lg:text-[35px] capitalize leading-tight font-semibold mb-4;
+  }
+  .subtitle {
+    @apply text-[18px] lg:text-[20px] leading-relaxed mb-5 lg:mb-9;
+  }
+}
+
+
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Oxanium', sans-serif;
+  /* background: #000;
+  color: azure; */
+}
